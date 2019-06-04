@@ -1,0 +1,31 @@
+#space invaders
+
+def setup():
+    size(700,550)
+    background(30,50,125,235)
+    global i
+    global img
+    global imgb
+    global nazwa
+    global nazwa2
+    global nazwa3
+    global ext
+    nazwa = "wrog1"
+    nazwa2 = "wrog2"
+    nazwa3 = "gracz"
+    ext = ".png"
+    i = loadImage(nazwa+ext)
+    image(i, 10, 10, 35, 35)
+    img = loadImage(nazwa2+ext)
+    image(img, 10, 10, 35, 35)
+    imgb = loadImage(nazwa3+ext)
+    image(imgb, 30,30,60,60)
+    
+def draw():
+    global i
+    global img
+    global imgb
+    global nazwa
+    global nazwa2
+    global nazwa3
+    global ext
