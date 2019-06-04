@@ -5,7 +5,7 @@ def setup():
     background(30,50,125,235)
     global i
     global img
-    global imgb
+    global gracz
     global imgc
     global imgz
     global nazwa
@@ -24,8 +24,8 @@ def setup():
     image(i, 10, 10, 35, 35)
     img = loadImage(nazwa2+ext)
     image(img, 10, 10, 35, 35)
-    imgb = loadImage(nazwa3+ext)
-    image(imgb, 320, 450, 60, 60)
+    gracz = loadImage(nazwa3+ext)
+    image(gracz, 320, 450, 60, 60)
     imgc = loadImage(nazwa4+ext)
     image(imgc, 10, 10, 60, 60)
     imgz = loadImage(nazwa5+ext)
@@ -34,7 +34,7 @@ def setup():
 def draw():
     global i
     global img
-    global imgb
+    global gracz
     global imgc
     global imgz
     global nazwa
