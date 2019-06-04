@@ -6,26 +6,40 @@ def setup():
     global i
     global img
     global imgb
+    global imgc
+    global imgz
     global nazwa
     global nazwa2
     global nazwa3
+    global nazwa4
+    global nazwa5
     global ext
     nazwa = "wrog1"
     nazwa2 = "wrog2"
     nazwa3 = "gracz"
+    nazwa4 = "pociskc"
+    nazwa5 = "pociskz"
     ext = ".png"
     i = loadImage(nazwa+ext)
     image(i, 10, 10, 35, 35)
     img = loadImage(nazwa2+ext)
     image(img, 10, 10, 35, 35)
     imgb = loadImage(nazwa3+ext)
-    image(imgb, 30,30,60,60)
+    image(imgb, 320, 450, 60, 60)
+    imgc = loadImage(nazwa4+ext)
+    image(imgc, 10, 10, 60, 60)
+    imgz = loadImage(nazwa5+ext)
+    image(imgz, 10, 10, 65, 65)
     
 def draw():
     global i
     global img
     global imgb
+    global imgc
+    global imgz
     global nazwa
     global nazwa2
     global nazwa3
+    global nazwa4
+    global nazwa5
     global ext
