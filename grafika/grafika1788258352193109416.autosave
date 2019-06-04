@@ -43,21 +43,18 @@ def draw():
     global nazwa4
     global nazwa5
     global ext
-
-    if keyPressed: 
-            # print(key)
-            print(keyCode)
-            if keyCode is 39:
-                print("dziala")
-            if keyCode is 37:
-                print("tez dziala")
-                
-
-class Gracz():
-    global gracz
-    def __init__(self, wyglad, zycia, ruch):
-        self.wyglad = wyglad
-        self.zycia = zycia
-        self.ruch = ruch
-#  def zycia():
     
+class Gracz:
+    def __init__(self, wyglad, zycia):
+        self.wyglad = gracz
+        self.życia = 3
+    def zycia():
+        if Gracz.pozycja = pocisk.pozycja:
+            self.zycia -=1
+            return()
+    def pozycja():
+        try 
+        while strzalka_lewo.pressed:
+            self.pozycja = (x-1, y)
+        while stralka_prawo.pressed:
+            self.pozycja = (x+1, y)
